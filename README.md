@@ -35,7 +35,7 @@ Calculadora Jurídica - Back End
 
 ### 5. Baixe o projeto usando um terminal
 
-````
+```
 git clone https://juliano_sts@bitbucket.org/juliano_sts/calculadora-back.git
 
 ```
