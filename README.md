@@ -6,7 +6,7 @@ Calculadora Jurídica - Back End
 
 ## Manual Backend [ambiente Windows]
 
-### 1. Pré-requisitos
+###  Pré-requisitos
     
     - [SQLServer](https://www.microsoft.com/pt-br/sql-server/sql-server-downloads/)
     - [SSMS](https://aka.ms/ssmsfullsetup/)
