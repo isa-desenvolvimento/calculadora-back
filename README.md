@@ -4,14 +4,13 @@ Calculadora Jurídica - Back End
 </h1>
 
 
-# Manual Backend [ambiente Windows]
+## Manual Backend [ambiente Windows]
 
 ### 1. Pré-requisitos
-
-    1.1 [SQLServer](https://www.microsoft.com/pt-br/sql-server/sql-server-downloads)
-    1.2 [SSMS](https://aka.ms/ssmsfullsetup)
-    1.3 [GIT](https://git-scm.com/download/win)
-
+    
+    - [SQLServer](https://www.microsoft.com/pt-br/sql-server/sql-server-downloads/)
+    - [SSMS](https://aka.ms/ssmsfullsetup/)
+    - [GIT](https://git-scm.com/download/win/)
 
 ## 🎲 Rodando o banco
 
