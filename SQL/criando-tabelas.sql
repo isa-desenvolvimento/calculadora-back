@@ -28,7 +28,7 @@ CREATE TABLE "ParceladoPre" (
 	encargosMonetarios varchar(255),
 	infoParaCalculo varchar(255),
 	tipoParcela varchar(255),
-	infoParaAmortizacao varchar(255)
+	infoParaAmortizacao varchar(max)
 );
 
 CREATE TABLE "Log" (
@@ -69,5 +69,5 @@ CREATE TABLE "ChequeEmpresarial" (
 	valorDevedorAtualizado float,
 	contractRef varchar(255),
 	ultimaAtualizacao varchar(255),
-	infoParaCalculo varchar(255)
+	infoParaCalculo varchar(max)
 );
