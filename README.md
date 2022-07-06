@@ -1,5 +1,5 @@
 <h1 align="center">
-   <img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge"/>
+   <img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge"/></br>
  Calculadora Jurídica - Back End   
 </h1>
 
@@ -8,9 +8,9 @@
 
 ### 1. Pré-requisitos
     
-    - [SQLServer](https://www.microsoft.com/pt-br/sql-server/sql-server-downloads/)
-    - [SSMS](https://aka.ms/ssmsfullsetup/)
-    - [GIT](https://git-scm.com/download/win/)
+    [SQLServer](https://www.microsoft.com/pt-br/sql-server/sql-server-downloads/)
+    [SSMS](https://aka.ms/ssmsfullsetup/)
+    [GIT](https://git-scm.com/download/win/)
 
 ## 🎲 Rodando o banco
 
