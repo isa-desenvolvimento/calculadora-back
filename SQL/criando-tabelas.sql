@@ -24,7 +24,7 @@ CREATE TABLE "ParceladoPre" (
 	indiceDV varchar(255),
 	indiceDCA varchar(255),
 	dataCalcAmor varchar(255),
-	valorPMTVincenda varchar(255),
+	valorPMTVincenda float,
 	status varchar(255),
 	ultimaAtualizacao varchar(255),
 	encargosMonetarios varchar(255),
