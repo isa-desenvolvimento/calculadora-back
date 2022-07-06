@@ -58,7 +58,7 @@ namespace calculadora_api
                 });
             // "Server=WIN-DBIQMVKJ4NK\\SQLEXPRESS;Database=master;Uid=WIN-DBIQMVKJ4NK\\Administrator;"
             services.AddDbContext<UserContext>
-                (opt => opt.UseSqlServer("Server=localhost\\SQLEXPRESS01;Database=master;Trusted_Connection=True;"));
+                (opt => opt.UseSqlServer("Server=localhost;Database=master;Trusted_Connection=True;"));
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

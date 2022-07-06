@@ -7,6 +7,8 @@ CREATE TABLE "User" (
 	Status tinyint
 );
 
+INSERT INTO "User" (Username, Password) VALUES ('admin', '21232f297a57a5a743894a0e4a801fc3');
+
 CREATE TABLE "ParceladoPre" (
 	Id int IDENTITY (1,1) NOT NULL,
 	parcelaInicial float,
@@ -50,6 +52,7 @@ CREATE TABLE "Indice" (
 	indice varchar(255),
 	valor float
 );
+
 
 CREATE TABLE "ChequeEmpresarial" (
 	Id int IDENTITY (1,1) NOT NULL,

@@ -1,6 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
+    <CheckEolTargetFramework>false</CheckEolTargetFramework>
     <RootNamespace>calculadora_api</RootNamespace>
   </PropertyGroup>
   <ItemGroup>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "n6tFc0iuFeZgiRQpYN0Zqty9xQdP0hL1HC43niKoAb6CxtgBkgBndWB1wfKxWUHHMmscVAwqTp9Eu97UjKa9VA==",
+  "dgSpecHash": "IE++AcmIH0CZCw4dNd83s4y48pYqJUB84wcNuXMEn63c/LnPtKv7yQ66sRl0w6jefJ82wb+ilo/Fqe4gUaI+Lg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrator\\Documents\\safra\\calculadora-api.csproj",
+  "projectFilePath": "C:\\Users\\Administrator\\Documents\\calculadora-back\\calculadora-api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
