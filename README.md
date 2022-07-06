@@ -8,12 +8,9 @@ Calculadora Jurídica - Back End
 
 ### 1. Pré-requisitos
 
-    1.1 (SQLServer)[https://www.microsoft.com/pt-br/sql-server/sql-server-downloads]
-    1.2 (SSMS)[https://aka.ms/ssmsfullsetup]
-    1.3 (GIT)[https://git-scm.com/download/win]
-    1.4 Node
-        (Node 10.24.1 64bit)[https://nodejs.org/dist/v10.24.1/node-v10.24.1-x64.msi]
-        (Node 10.24.1 32bit)[https://nodejs.org/dist/v10.24.1/node-v10.24.1-x86.msi]
+    1.1 [SQLServer](https://www.microsoft.com/pt-br/sql-server/sql-server-downloads)
+    1.2 [SSMS](https://aka.ms/ssmsfullsetup)
+    1.3 [GIT](https://git-scm.com/download/win)
 
 
 ## 🎲 Rodando o banco
@@ -31,7 +28,7 @@ Calculadora Jurídica - Back End
     2.4 Copie o conteúdo do arquivo criando-tabelas.sql que tá no back e cole nesse arquivo "New Query" do SSMS
     2.5 Faça o mesmo com o arquivo indices-ALL.sql
 
-## 🎲 Rodando o back - dotnet
+## 🛠 Rodando o back - dotnet
 
 ### 5. Baixe o projeto usando um terminal
 
