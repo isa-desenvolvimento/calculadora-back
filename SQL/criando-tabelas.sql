@@ -28,7 +28,7 @@ CREATE TABLE "ParceladoPre" (
 	status varchar(255),
 	ultimaAtualizacao varchar(255),
 	encargosMonetarios varchar(255),
-	infoParaCalculo varchar(255),
+	infoParaCalculo varchar(max),
 	tipoParcela varchar(255),
 	infoParaAmortizacao varchar(max)
 );
@@ -41,7 +41,7 @@ CREATE TABLE "Log" (
 	contrato varchar(255),
 	tipoContrato varchar(255),
 	dataSimulacao varchar(255),
-	infoTabela varchar(255),
+	infoTabela varchar(max),
 	acao varchar(255),
 	modulo varchar(255),
 	recuperacaoJudicial bit
