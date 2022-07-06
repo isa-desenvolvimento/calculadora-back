@@ -11,6 +11,8 @@ INSERT INTO "User" (Username, Password) VALUES ('admin', '21232f297a57a5a743894a
 
 CREATE TABLE "ParceladoPre" (
 	Id int IDENTITY (1,1) NOT NULL,
+	nparcelas varchar(255),
+	contractRef varchar(255),
 	parcelaInicial float,
 	indiceDataVencimento float,
 	indiceDataCalcAmor float,

@@ -25,7 +25,14 @@ namespace calculadora_api.Controllers
         // [Authorize(Roles = "admin")]
         public ActionResult<IEnumerable<ChequeEmpresarial>> GetChequeEmpresarialItems()
         {
-            return _context.ChequeEmpresarial;
+            var chequeempresarialAll =  _context.ChequeEmpresarial;
+            
+            if (chequeempresarialAll == null)
+            {
+                return NotFound();
+            }
+
+            return chequeempresarialAll;
         }
 
         //GET:      api/users/n
