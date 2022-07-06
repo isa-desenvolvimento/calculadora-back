@@ -1,6 +1,12 @@
+<h1 align="center">
+
+Calculadora Jurídica - Back End
+</h1>
+
+
 # Manual Backend [ambiente Windows]
 
-1. Pré-requisitos
+### 1. Pré-requisitos
 
     1.1 (SQLServer)[https://www.microsoft.com/pt-br/sql-server/sql-server-downloads]
     1.2 (SSMS)[https://aka.ms/ssmsfullsetup]
@@ -9,7 +15,11 @@
         (Node 10.24.1 64bit)[https://nodejs.org/dist/v10.24.1/node-v10.24.1-x64.msi]
         (Node 10.24.1 32bit)[https://nodejs.org/dist/v10.24.1/node-v10.24.1-x86.msi]
 
-2. Criando e populando Banco de dados
+
+## 🎲 Rodando o banco
+
+
+### 2. Criando e populando Banco de dados
     2.1 Abra o SSMS
     2.2 Faça login no Sql Server Studio clicando em "Connect"
         Server type = Database Engine
@@ -21,9 +31,9 @@
     2.4 Copie o conteúdo do arquivo criando-tabelas.sql que tá no back e cole nesse arquivo "New Query" do SSMS
     2.5 Faça o mesmo com o arquivo indices-ALL.sql
 
-# BAIXANDO O PROJETO BACK E CONFIGIURANDO O DOTNET
+## 🎲 Rodando o back - dotnet
 
-5. Baixe o projeto usando um terminal
+### 5. Baixe o projeto usando um terminal
 
 ````
 git clone https://juliano_sts@bitbucket.org/juliano_sts/calculadora-back.git
