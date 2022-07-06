@@ -1,6 +1,7 @@
 <h1 align="center">
 
-Calculadora Jurídica - Back End
+Calculadora Jurídica - Back End ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+
 </h1>
 
 
@@ -8,9 +9,10 @@ Calculadora Jurídica - Back End
 
 ###  Pré-requisitos
     
-    - [SQLServer](https://www.microsoft.com/pt-br/sql-server/sql-server-downloads/)
-    - [SSMS](https://aka.ms/ssmsfullsetup/)
-    - [GIT](https://git-scm.com/download/win/)
+    - ![SQLServer](https://www.microsoft.com/pt-br/sql-server/sql-server-downloads/)
+    - ![SSMS](https://aka.ms/ssmsfullsetup/)
+    - ![GIT](https://git-scm.com/download/win/)
+    
 
 ## 🎲 Rodando o banco
 
