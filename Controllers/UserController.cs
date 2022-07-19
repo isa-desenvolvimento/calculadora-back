@@ -3,6 +3,9 @@ using Microsoft.AspNetCore.Mvc;
 using calculadora_api.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authorization;
+using calculadora_api.Services;
+using System;
+using System.Linq;
 
 namespace calculadora_api.Controllers
 {
@@ -43,6 +46,8 @@ namespace calculadora_api.Controllers
         [HttpPost]
         public ActionResult<User> PostUserItem(User user)
         {
+            user.Password = HashService.Hash(user.Password);
+
             _context.User.Add(user);
             _context.SaveChanges();
 

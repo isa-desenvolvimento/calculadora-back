@@ -13,12 +13,19 @@ namespace calculadora_api.Controllers
     [Route("api/auth")]
     public class AuthController : Controller
     {
+        private readonly UserRepository _userRepository;
+
+        public AuthController(UserRepository userRepository)
+        {
+            _userRepository = userRepository;
+        }
+
         [HttpPost]
         [Route("login")]
         [AllowAnonymous]
         public ActionResult<dynamic> Authenticate([FromBody] User model)
         {
-            var user = UserRepository.VerifyUser(model.Username, model.Password);
+            var user = _userRepository.VerifyUser(model.Username, model.Password);
 
             if (user == null)
                 return NotFound(new { message = "Usuário ou senha inválidos" });
@@ -51,7 +58,7 @@ namespace calculadora_api.Controllers
         [HttpGet]
         [Route("users")]
         [Authorize(Roles = "admin")]
-        public List<User> Manager() => UserRepository.UserList();
+        public List<User> Manager() => _userRepository.UserList();
 
     }
 }

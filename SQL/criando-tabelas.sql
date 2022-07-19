@@ -7,7 +7,7 @@ CREATE TABLE "User" (
 	Status tinyint
 );
 
-INSERT INTO "User" (Username, Password) VALUES ('admin', '21232f297a57a5a743894a0e4a801fc3');
+INSERT INTO "User" (Username, Password) VALUES ('admin', '21232F297A57A5A743894A0E4A801FC3');
 
 CREATE TABLE "ParceladoPre" (
 	Id int IDENTITY (1,1) NOT NULL,

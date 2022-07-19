@@ -11,6 +11,6 @@ namespace calculadora_api.Models
         public string Username { get; set; }
         public DateTime CreatedDate { get; set; }
         public string Profile { get; set; }
-        public Boolean Status { get; set; }
+        //public int Status { get; set; }
     }
 }

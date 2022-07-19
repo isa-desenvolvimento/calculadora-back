@@ -6,34 +6,25 @@ using calculadora_api.Services;
 
 namespace calculadora_api.Repositories
 {
-    public static class UserRepository
+    public class UserRepository
     {
-        public static User VerifyUser(string username, string password)
+        private readonly UserContext _context;
+
+        public UserRepository(UserContext context)
         {
-            var users = new List<User>();
-
-            DateTime localDate = DateTime.Now;
-
-            users.Add(new User { Id = 1, Username = "admin", Password = "admin", Profile = "admin", Status = true, CreatedDate = localDate });
-            users.Add(new User { Id = 2, Username = "editor", Password = "editor", Profile = "employee", Status = true, CreatedDate = localDate });
-            users.Add(new User { Id = 3, Username = "consult", Password = "consult", Profile = "consult", Status = true, CreatedDate = localDate });
-
-            return users.Where(x =>
-                 x.Username.ToLower() == username.ToLower() && HashService.Verify(x.Password, HashService.Hash(password))
-            ).FirstOrDefault();
+            _context = context;
         }
 
-        public static List<User> UserList()
+        public User VerifyUser(string username, string password)
         {
-            var users = new List<User>();
+            var passwordHash = HashService.Hash(password);
 
-            DateTime localDate = DateTime.Now;
+            return _context.User.Where(x => x.Username == username && x.Password == passwordHash).FirstOrDefault();
+        }
 
-            users.Add(new User { Id = 1, Username = "admin", Password = "admin", Profile = "admin", Status = true, CreatedDate = localDate });
-            users.Add(new User { Id = 2, Username = "editor", Password = "editor", Profile = "employee", Status = true, CreatedDate = localDate });
-            users.Add(new User { Id = 3, Username = "consult", Password = "consult", Profile = "consult", Status = true, CreatedDate = localDate });
-
-            return users;
+        public List<User> UserList()
+        {
+            return _context.User.ToList();
         }
     }
 }

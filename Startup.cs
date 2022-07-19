@@ -12,6 +12,7 @@ using Microsoft.EntityFrameworkCore;
 using calculadora_api.Models;
 
 using System;
+using calculadora_api.Repositories;
 
 namespace calculadora_api
 {
@@ -57,8 +58,9 @@ namespace calculadora_api
                     options.SerializerSettings.Converters.Add(new StringEnumConverter());
                 });
             // "Server=WIN-DBIQMVKJ4NK\\SQLEXPRESS;Database=master;Uid=WIN-DBIQMVKJ4NK\\Administrator;"
-            services.AddDbContext<UserContext>
-                (opt => opt.UseSqlServer("Server=localhost;Database=master;Trusted_Connection=True;"));
+            services.AddDbContext<UserContext>(opt => opt.UseSqlServer("Server=localhost;Database=master;Trusted_Connection=True;"));
+
+            services.AddScoped<UserRepository>();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
