@@ -73,3 +73,13 @@ CREATE TABLE "ChequeEmpresarial" (
 	ultimaAtualizacao varchar(255),
 	infoParaCalculo varchar(max)
 );
+
+
+CREATE TABLE "Pastas" (
+	Id int IDENTITY (1,1) NOT NULL,
+	pasta varchar(255),
+	contrato varchar(255),
+	descricao varchar(255),
+	cliente varchar(255),
+	cnpj varchar(255)
+);

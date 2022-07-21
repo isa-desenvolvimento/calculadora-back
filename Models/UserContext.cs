@@ -14,5 +14,6 @@ namespace calculadora_api.Models
         public DbSet<ParceladoPre> ParceladoPre { get; set; }
         public DbSet<Indice> Indice { get; set; }
         public DbSet<Log> Log { get; set; }
+        public DbSet<Pastas> Pastas { get; set; }
     }
 }
