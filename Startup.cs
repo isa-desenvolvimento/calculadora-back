@@ -58,8 +58,8 @@ namespace calculadora_api
                     options.SerializerSettings.Converters.Add(new StringEnumConverter());
                 });
             // "Server=WIN-DBIQMVKJ4NK\\SQLEXPRESS;Database=master;Uid=WIN-DBIQMVKJ4NK\\Administrator;"
-            services.AddDbContext<UserContext>(opt => opt.UseSqlServer("Server=localhost;Database=master;Trusted_Connection=True;"));
-
+            // services.AddDbContext<UserContext>(opt => opt.UseSqlServer("Server=localhost;Database=master;Trusted_Connection=True;"));
+            services.AddDbContext<UserContext>(opt => opt.UseSqlServer("Server=calculadora-juridica.database.windows.net;Database=safra;User ID=safra;Password=Xp2PunKvyZgeuXgp;"));
             services.AddScoped<UserRepository>();
         }
 
