@@ -1,32 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator\\Documents\\calculadora-back\\calculadora-api.csproj": {}
+    "C:\\Users\\Andressa\\projetos\\calculadora-back\\calculadora-api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator\\Documents\\calculadora-back\\calculadora-api.csproj": {
+    "C:\\Users\\Andressa\\projetos\\calculadora-back\\calculadora-api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\Documents\\calculadora-back\\calculadora-api.csproj",
+        "projectUniqueName": "C:\\Users\\Andressa\\projetos\\calculadora-back\\calculadora-api.csproj",
         "projectName": "calculadora-api",
-        "projectPath": "C:\\Users\\Administrator\\Documents\\calculadora-back\\calculadora-api.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\Documents\\calculadora-back\\obj\\",
+        "projectPath": "C:\\Users\\Andressa\\projetos\\calculadora-back\\calculadora-api.csproj",
+        "packagesPath": "C:\\Users\\Andressa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Andressa\\projetos\\calculadora-back\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Andressa\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.0": {
-            "targetAlias": "netcoreapp3.0",
             "projectReferences": {}
           }
         },
@@ -38,7 +35,6 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
-          "targetAlias": "netcoreapp3.0",
           "dependencies": {
             "Microsoft.AspNetCore.Authentication": {
               "target": "Package",
@@ -107,7 +103,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.421\\RuntimeIdentifierGraph.json"
         }
       }
     }
