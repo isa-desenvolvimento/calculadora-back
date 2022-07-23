@@ -6,8 +6,8 @@ setup:
     S3_BUCKET: my-example-bucket
 build:
   docker:
-    web: Dockerfile
-    worker: worker/Dockerfile
+    web:
+      dockerfile: Dockerfile.heroku
   config:
     RAILS_ENV: development
     FOO: bar
