@@ -283,3 +283,5 @@ C:\Users\Andressa\projetos\calculadora-back\obj\Debug\netcoreapp3.0\staticwebass
 C:\Users\Andressa\projetos\calculadora-back\obj\Debug\netcoreapp3.0\calculadora-api.dll
 C:\Users\Andressa\projetos\calculadora-back\obj\Debug\netcoreapp3.0\calculadora-api.pdb
 C:\Users\Andressa\projetos\calculadora-back\obj\Debug\netcoreapp3.0\calculadora-api.genruntimeconfig.cache
+C:\Users\Andressa\projetos\calculadora-back\bin\Debug\netcoreapp3.0\Npgsql.dll
+C:\Users\Andressa\projetos\calculadora-back\bin\Debug\netcoreapp3.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
