@@ -59,7 +59,7 @@ namespace calculadora_api
                 });
             // "Server=WIN-DBIQMVKJ4NK\\SQLEXPRESS;Database=master;Uid=WIN-DBIQMVKJ4NK\\Administrator;"
             // services.AddDbContext<UserContext>(opt => opt.UseSqlServer("Server=localhost;Database=master;Trusted_Connection=True;"));
-            ;;services.AddDbContext<UserContext>(opt => opt.UseSqlServer("Server=calculadora-juridica.database.windows.net; Database=safra; User ID=safra; Password=Xp2PunKvyZgeuXgp; Trusted_Connection=False;"));
+            // services.AddDbContext<UserContext>(opt => opt.UseSqlServer("Server=calculadora-juridica.database.windows.net; Database=safra; User ID=safra; Password=Xp2PunKvyZgeuXgp; Trusted_Connection=False;"));
             services.AddDbContext<UserContext>(opt => opt.UseSqlServer("postgres://qdeaemyryydppu:9a0959ea82c51ac23efccfe1a06ff02d625f98f06259bb51336dbdc09f2949f2@ec2-54-152-28-9.compute-1.amazonaws.com:5432/daj1l101t4uo1m"));
             services.AddScoped<UserRepository>();
         }
