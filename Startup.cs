@@ -12,6 +12,8 @@ using MySql.Data.EntityFrameworkCore.DataAnnotations;
 using Microsoft.EntityFrameworkCore;
 using calculadora_api.Models;
 
+using Microsoft.AspNetCore.HttpOverrides;
+
 using System;
 using calculadora_api.Repositories;
 
@@ -25,6 +27,7 @@ namespace calculadora_api
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddHttpsRedirection(options => { options.HttpsPort = 443; });
             services.AddCors();
             services.AddControllers();
             services.AddCors(o => o.AddPolicy("MyPolicy", builder =>
@@ -33,6 +36,13 @@ namespace calculadora_api
                .AllowAnyMethod()
                .AllowAnyHeader();
             }));
+
+            services.Configure<ForwardedHeadersOptions>(options =>
+            {
+                options.ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto;
+                options.KnownNetworks.Clear();
+                options.KnownProxies.Clear();
+            });
 
             // var key = Encoding.ASCII.GetBytes(Settings.Secret);
             // services.AddAuthentication(x =>
