@@ -61,7 +61,7 @@ namespace calculadora_api
             // "Server=WIN-DBIQMVKJ4NK\\SQLEXPRESS;Database=master;Uid=WIN-DBIQMVKJ4NK\\Administrator;"
             // services.AddDbContext<UserContext>(opt => opt.UseSqlServer("Server=localhost;Database=master;Trusted_Connection=True;"));
             //services.AddDbContext<UserContext>(opt => opt.UseSqlServer("Server=calculadora-juridica.database.windows.net; Database=safra; User ID=safra; Password=Xp2PunKvyZgeuXgp; Trusted_Connection=False;"));
-            services.AddDbContext<UserContext>(opt => opt.UseMySQL("Server=calculadora-juridica.mysql.database.azure.com;UserID = safra;Password=Xp2PunKvyZgeuXgp; Database=safra;" ));
+            services.AddDbContext<UserContext>(opt => opt.UseMySQL("Server=us-cdbr-east-06.cleardb.net;UserID=bf9af8184f7487;Password=b48470cb; Database=heroku_cd4d9aced910652;" ));
 
             //services.AddDbContext<UserContext>(opt => opt.UseNpgsql("Server=ec2-54-152-28-9.compute-1.amazonaws.com; Port=5432;  Database=daj1l101t4uo1m; User Id=qdeaemyryydppu; Password=9a0959ea82c51ac23efccfe1a06ff02d625f98f06259bb51336dbdc09f2949f2;"));
             //services.AddDbContext<UserContext>(opt => opt.UseSqlServer("postgres://qdeaemyryydppu:9a0959ea82c51ac23efccfe1a06ff02d625f98f06259bb51336dbdc09f2949f2@ec2-54-152-28-9.compute-1.amazonaws.com:5432/daj1l101t4uo1m"));
